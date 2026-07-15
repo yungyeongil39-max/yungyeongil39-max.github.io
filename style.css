@@ -111,6 +111,12 @@ details[open] .chevron { transform: rotate(180deg); }
 .cta-button { min-height: 58px; display: grid; grid-template-columns: 24px 1fr 24px; gap: 10px; align-items: center; padding: 0 18px; border-radius: 18px; background: var(--peach); color: var(--green-dark); font-weight: 700; }
 .text-link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: rgba(255,250,243,0.8); font-size: 14px; }
 
+.qr-card { display: grid; gap: 26px; margin-top: 22px; padding: 32px 26px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: #fffdf9; box-shadow: var(--shadow); }
+.qr-copy h2 { margin: 0; font: 700 clamp(30px, 8.8vw, 44px)/1.35 "Batang", serif; }
+.qr-copy > p:last-child { margin: 14px 0 0; color: var(--muted); font-size: 14px; }
+.qr-image-wrap { width: min(100%, 260px); margin: 0 auto; padding: 12px; border-radius: 22px; background: #fff; box-shadow: 0 12px 30px rgba(75, 52, 39, 0.1); }
+.qr-image-wrap img { width: 100%; aspect-ratio: 1; object-fit: contain; }
+
 .site-footer { padding: 28px 20px 40px; text-align: center; color: var(--muted); }
 .site-footer a { font: 700 22px/1 Georgia, "Batang", serif; color: var(--green-dark); }
 .site-footer p { margin: 10px 0 0; font-size: 11px; letter-spacing: 0.08em; }
@@ -125,6 +131,7 @@ details[open] .chevron { transform: rotate(180deg); }
   .primary-actions { max-width: 540px; margin-inline: auto; }
   .action { font-size: 14px; }
   .about-grid { grid-template-columns: 1fr 1fr; align-items: center; }
+  .qr-card { grid-template-columns: 1fr 240px; align-items: center; }
   .section { padding-inline: 48px; }
   .site-footer { background: var(--cream); border-radius: 0 0 24px 24px; }
 }
